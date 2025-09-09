@@ -1,0 +1,297 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+% Formatting settings
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Subsection formatting
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{2pt}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{POBI KWAKU GABRIEL}} \\
+    \vspace{4pt}
+    \faEnvelope\ \href{mailto:pobigabriel747@gmail.com}{pobigabriel747@gmail.com} \faPhone\ \textcolor{blue}{+233598269947} \faGithub\ \href{https://github.com/pobigabs}{github.com/pobigabs} \faLinkedin \href{https://linkedin.com/in/pobigabriel747}{linkedin.com/in/pobigabriel747}
+\end{center}
+
+\vspace{6pt}
+
+% Objective
+\section{Objective}
+Eager and committed aspiring Electronics Engineer, driven by a passion for innovation and a deep fascination with the transformative potential of VLSI and semiconductor technology. Motivated by the opportunity to engage in cutting-edge research and practical applications, I seek to leverage my academic foundation and technical expertise to address real-world challenges in low-power digital design, high-performance integrated circuits, and beyond. With a strong interest in device modeling and circuit optimization, I aim to contribute to advancements that shape the future of electronics and computation.
+
+% Education
+\section{Education}
+\subsection{Kwame Nkrumah University of Science and Technology (KNUST), Kumasi, Ghana}
+\textbf{BSc. Electrical/Electronic Engineering\hfill January 13, 2023 -- Present} \\
+CWA: 80.43 (First Class)\\GPA: 3.94
+
+\subsection{St. Peter's Senior High School, Kwahu -- Nkwatia, Ghana}
+\textbf{General Science (W.A.S.S.C.E)\hfill September 2019 -- September 2022}
+
+% Relevant Coursework
+\section{Relevant Coursework}
+Linear Electronics, Microprocessors, Classical Control System, Digital Systems, Circuit Theory, Semiconductor Devices,Electromagnetic Field Theorem, Analog Communication Systems, C Programming, Transformers, Asynchronous and DC Machines.
+
+% Awards
+\section{Awards, Honours and Recognition}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item \textbf{Scholarship -- Empomart Products, Ghana\hfill December 2022 -- Present}
+    \item \textbf{Best Performing Students Scholarship Award, University Hall, KNUST\hfill September 2023 -- Present}
+\end{itemize}
+
+% Certifications
+\section{Certification Courses}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Data Science, AI, and Machine Learning with Python (\href{https://drive.google.com/file/d/1ge2N_p5p7hWY9XAWXufrmRCWcmR15knB/view?usp=sharing}{\textit{view certificate}})
+    \item Complete Arduino Course For Beginners (\href{https://drive.google.com/file/d/1eN2TqwWgNI_MtH6IRInM4ZN7ttTX79yr/view?usp=sharing}{\textit{view certificate}})
+    \item Complete Javascript, jQuery and React Bootcamp (\href{https://drive.google.com/file/d/1ypAk-ru89CvGrIKhwaGyXCJxiqdbNYmu/view?usp=sharing}{\textit{view certificate}})
+    \item Make Simple Games with Python  (\href{https://drive.google.com/file/d/1_nay1QVJYZl3Cq7-y7_SQQqG6iJxU-Rh/view?usp=sharing}{\textit{view certificate}})
+    \item Complete MS Office Course Masterclass (\href{https://drive.google.com/file/d/1hthvdUFifv6qC_rfGByGf87fd6Zgxt_w/view?usp=sharing}{\textit{view certificate}})
+    \item Critical Thinking, Decision Analysis and Problem Solving (\href{https://drive.google.com/file/d/1I8Z4zjGBThmjQv7OlRshYf5-_aTz5Po4/view?usp=sharing}{\textit{view certificate}})
+\end{itemize}
+
+% Research Experience
+\section{Research Experience}
+
+\subsection{Enhancing Energy Resilience In Anoff\hfill September, 2023 -- December, 2023}
+\textbf{Supervisor:} Prof Frimpong, Department of Electrical/Electronic Engineering, KNUST
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Researched and identified root causes of persistent power supply issues in Anoff, analyzing implications through surveys and interviews.
+    \item Proposed on-grid solar power system adoption as an innovative solution after comprehensive studies.
+    \item Executed a feasibility study, assessing on-grid solar power system impact on energy needs, cost-effectiveness, and environmental sustainability for Anoff.
+\end{itemize}
+
+% Projects
+\section{Projects}
+
+\subsection{Low-Power PWM Controller for On-Chip Power Management (Proposed Final Year Project)}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed a mixed-signal \textbf{low-power PWM controller} for DC–DC conversion with programmable frequency (200\,kHz–1\,MHz), fine duty-cycle resolution, and configurable dead-time. 
+  \item Implemented analog building blocks (oscillator, comparator, error amplifier) integrated with a lightweight \textbf{digital FSM} for startup, shutdown, and protection control. 
+  \item Achieved low quiescent current ($<$10\,µA in standby), jitter $<$1\% of period, and robust closed-loop regulation with phase margin $>$45° (post-layout simulations). 
+  \item Completed schematic-to-layout flow: transistor-level design, mixed-signal co-simulation, \textbf{PEX-based verification}, and performance characterization (efficiency, stability, noise) using Cadence and MATLAB/Python. 
+  \item Developed strong skills in \textbf{analog/mixed-signal design, low-power techniques, control-loop verification, and PMIC system integration}. 
+\end{itemize}
+
+\subsection{Two-Stage CMOS Operational Amplifier Design}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed and simulated a \textbf{two-stage CMOS operational amplifier} with Miller compensation for high gain and frequency stability. 
+  \item Achieved open-loop gain $>$70\,dB, unity-gain bandwidth in MHz range, and phase margin $>$60°, while maintaining rail-to-rail output swing and low power consumption. 
+  \item Performed full custom design flow: schematic entry, \textbf{DC/AC/transient/noise analyses}, layout implementation, \textbf{DRC/LVS checks}, parasitic extraction (PEX), and post-layout verification. 
+  \item Gained expertise in \textbf{analog VLSI circuit design, frequency compensation, layout matching, and performance validation} using Cadence Virtuoso and SPICE simulations. 
+\end{itemize}
+
+\subsection{VGA Controller Design using VHDL (640$\times$480 @ 60Hz)\hfill July 2025 -- August 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed and implemented a VGA synchronization controller on FPGA using VHDL, targeting 640$\times$480 resolution at 60Hz refresh rate. 
+  \item Developed RTL modules with counters and finite state machines to generate horizontal/vertical sync pulses, pixel timing, and video enable signals. 
+  \item Implemented pixel coordinate tracking and conditional rendering of a centered rectangular box with programmable RGB output. 
+  \item Achieved 25\,MHz pixel clock division from the input clock and ensured correct video timing (porches, sync pulse, and active video). 
+  \item Strengthened skills in \textbf{RTL design, clock-domain management, FPGA timing analysis, and hardware description languages}, relevant to VLSI design. 
+\end{itemize}
+
+\subsection{FPGA-Based Memory Game using VHDL\hfill July 2025 -- August 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed and implemented a digital \textbf{memory game (Simon-Says style)} on FPGA using VHDL, based on a finite state machine (FSM). 
+  \item Utilized a 50\,MHz input clock and derived lower-frequency timing for LED display, button input handling, and sequence pacing. 
+  \item Implemented a \textbf{pseudo-random sequence generator} using Linear Feedback Shift Register (LFSR) to generate LED patterns of increasing length. 
+  \item Developed game logic including sequence display, user input verification, win/lose detection, scoring, and progression control. 
+  \item Integrated \textbf{LEDs and 7-segment displays} for real-time feedback on game state, score, and user responses. 
+  \item Strengthened expertise in \textbf{FSM-based RTL design, pseudo-random generation, timing control, and FPGA hardware prototyping}, directly applicable to VLSI system design. 
+\end{itemize}
+
+\subsection{Digital Signal Processing \& Communication Systems}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Developed comprehensive \textbf{audio processing pipeline} using FFT algorithms for frequency domain analysis, implementing professional spectrograms and magnitude spectrum visualization with Python/Librosa/NumPy.
+  \item Designed high-performance \textbf{FIR digital filters} (201 taps, 3\,kHz cutoff) for speech enhancement, successfully removing noise while preserving intelligibility in real audio samples.
+  \item Conducted systematic \textbf{sampling theory validation} through downsampling experiments (44.1\,kHz to 5.5\,kHz), demonstrating Nyquist theorem and aliasing effects via detailed spectrogram analysis.
+  \item Implemented three \textbf{digital modulation schemes} (ASK, FSK, PSK) for communication systems with configurable parameters, simulating complete transmitter chains for modern wireless applications.
+  \item Developed strong skills in \textbf{Python scientific computing, signal processing algorithms, telecommunications theory, and professional data visualization}.
+\end{itemize}
+
+\subsection{Antenna Design and Simulation using HFSS\hfill June 2025 -- August 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed and simulated multiple antennas (patch at 8.4\,GHz, Yagi-Uda at 13.4\,GHz, dipole at 2.5\,kHz, and monopole at 2.5\,kHz/8.4\,GHz) using Ansys HFSS. 
+  \item Analyzed and compared antenna performance across frequency bands, focusing on \textbf{gain, directivity, radiation efficiency, VSWR/return loss, and bandwidth}. 
+  \item Demonstrated differences in radiation characteristics: omnidirectional (dipole/monopole) vs.\ directional high-gain (Yagi-Uda) vs.\ moderate directivity (patch). 
+  \item Strengthened expertise in \textbf{full-wave EM simulation, impedance matching, radiation pattern analysis, and frequency-dependent optimization}, relevant to RF and VLSI/SoC integration. 
+\end{itemize}
+
+\subsection{12-Pulse Rectifier Design and Analysis\hfill August 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed and simulated a \textbf{12-pulse rectifier} using PLECS for high-power conversion applications.  
+  \item Analyzed the \textbf{DC output voltage and current waveforms}, highlighting reduced ripple, improved waveform quality, and harmonic suppression compared to conventional 6-pulse rectifiers.  
+  \item Evaluated converter performance in terms of output smoothness, harmonic distortion, and power factor, demonstrating suitability for industrial motor drives and HVDC applications.  
+  \item Strengthened expertise in \textbf{power electronics simulation, waveform analysis, and converter performance evaluation} using PLECS.  
+\end{itemize}
+
+\subsection{Smart Traffic Light System \hfill March 2025 -- April 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Designed and simulated a smart traffic light control system using Wokwi and ultrasonic sensors to optimize traffic flow based on real-time vehicle density.
+    \item Implemented congestion detection logic with dynamic green light timing and integrated sensor calibration, LED control, and serial communication.
+    \item Applied embedded systems principles such as digital I/O, memory-efficient logic, and real-time delays to model efficient urban traffic management.
+\end{itemize}
+
+\subsection{Simulation and Characterization of nMOSFET Behavior Using LTspice \hfill December 2024 -- January 2025}
+\begin{itemize}[leftmargin=1.5em]
+    \item Designed a complete nMOSFET circuit in LTspice, incorporating appropriate biasing, power supply, and load resistor. Configured device parameters (e.g., threshold voltage, channel length, and width) based on a standard CMOS process.  
+    \item Performed DC sweep analysis to investigate output characteristics (I\textsubscript{D}-V\textsubscript{DS}) across various gate voltages, and used transient simulations to observe switching behavior under pulsed gate input.
+    \item Analyzed simulation results to extract key parameters such as threshold voltage (V\textsubscript{th}), transconductance (g\textsubscript{m}), and drain current in saturation, validating against theoretical models for digital and analog applications.
+\end{itemize}
+
+\subsection{Analyzed the behavior of a CMOS Inverter using Cadence Virtuoso \hfill December 2024 -- January 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Simulated and analyzed the transient and DC characteristics of a CMOS inverter using Cadence Virtuoso.
+    \item Observed key performance metrics, including noise margins, propagation delay, and power dissipation.
+    \item Results showed a low-to-high propagation delay of approximately 100 ps and a high-to-low delay of 90 ps, with a power dissipation of 200 µW at V$_{dd}$ = 1.8V. The study provided insights into how transistor sizing and supply voltage impact switching speed and power consumption in VLSI design.
+\end{itemize}
+
+\subsection{Interactive Prize Wheel with User-Defined Items\hfill June 2024 -- July 2024}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Customizable Spin Wheel -- Users can add their own prizes or options and remove them anytime, making the wheel fully personal and interactive.
+    \item Exciting Random Spin -- With smooth animations and fair randomization using JavaScript, each spin feels dynamic and unpredictable.
+    \item Fun Win Reveal -- The winning item is revealed with applause, confetti, and a pop-up, creating a fun, game-like experience for the user.
+\end{itemize}
+
+\subsection{Responsive Calculator App\hfill March 2024 -- April 2024}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Clean User Interface -- Designed with HTML and styled using CSS for a neat, responsive layout with buttons for digits, operations, and a display screen.
+    \item Extended Functionality with JavaScript -- Performs basic arithmetic and advanced trigonometric functions (sin, cos, tan) using JavaScript for precise and real-time calculations.
+    \item Real-Time Interaction -- Supports real-time input and instant calculation results, giving users a smooth and responsive experience.
+\end{itemize}
+
+\subsection{Comparative Performance Analysis of Nodal vs. Mesh Analysis Algorithms \hfill May 2024 -- June 2024}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Reduced circuit-solving runtime by up to 35\% by implementing and optimizing Nodal and Mesh analysis algorithms in both C and Python, leveraging efficient data structures and minimizing redundant computations.
+    \item Benchmarked algorithmic performance across 100+ circuit configurations, demonstrating that Nodal Analysis outperformed Mesh Analysis in large sparse networks, while Mesh Analysis excelled in planar low-loop circuits.
+    \item Improved memory efficiency by 28\% through custom matrix representations and optimized solver routines, enabling faster simulations on resource-constrained embedded systems.
+    \item Validated cross-language execution metrics using Python's profiling tools and C-based memory tracing, contributing to a reproducible and platform-independent evaluation framework for algorithm selection in VLSI circuit simulators.
+\end{itemize}
+
+\subsection{Built a Python-based Hangman game \hfill July 2023 -- July 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Developed an interactive word-guessing game using Python, implementing string manipulation, loops, and conditional statements.
+    \item Designed a user-friendly interface with a command-line display and logic to track correct and incorrect guesses.
+    \item Successfully demonstrated fundamental programming concepts and improved problem-solving skills.
+\end{itemize}
+
+\subsection{Mobile Charger Circuit\hfill June 2023 -- June 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Developed a compact DC charger circuit using a step-down transformer, bridge rectifier, and 7805 voltage regulator to deliver a stable 5V output.
+    \item Practiced hands-on soldering, component placement, and circuit protection techniques on a breadboard.
+    \item Strengthened understanding of power conversion, filtering, and safe circuit handling through practical experimentation.
+\end{itemize}
+
+\subsection{LED Chaser Circuit--Sequential Lighting Project\hfill February 7, 2023 -- March 28, 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Created a visually engaging LED sequence using a 555 timer and 4017 decade counter IC for pulse-driven output.
+    \item Experimented with clock pulse frequency to control LED speed and patterns, enhancing circuit interactivity.
+    \item Developed a deeper understanding of timing circuits, logic sequencing, and the practical use of ICs in digital design.
+\end{itemize}
+
+% Work Experience
+\section{Work Experience}
+
+\subsection{CODEK-CONSULT}
+\textbf{Software and Chip Design Start-up\hfill November 2024 -- Present}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Accelerated early-stage growth of a VLSI and embedded systems start-up by contributing to strategic planning, service design, and operational execution across technical and educational verticals.
+    \item Co-designed client-facing solutions for PCB optimization, embedded firmware integration, and system-level prototyping, enabling rapid turnaround for hardware startups and student-led research projects.
+    \item Expanded community engagement by 3x through the creation and delivery of hands-on workshops in Arduino, microcontroller programming, and electronics fundamentals, fostering technical upskilling in local tech communities.
+    \item Standardized technical support pipelines by launching guided software installation and electronics setup services, improving service delivery time and reducing onboarding friction for non-technical clients.
+\end{itemize}
+
+\subsection{Blue Sky Products --- Nsawam, Ghana}
+\textbf{Intern\hfill September 2024 -- November 2024}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Assisted in maintaining and troubleshooting industrial electrical systems, including automation and control systems, to reduce equipment downtime.
+    \item Performed daily checks and supported servicing of Proseal machines, metal detectors, lighting systems, and coconut washer motors for efficient operation.
+    \item Participated in the installation and testing of motors, electrical panels, and control circuits, ensuring adherence to safety and performance standards.
+\end{itemize}
+
+\subsection{The Rose of Sharon Decor --- Nsawam, Ghana}
+\textbf{Event Setup \& Logistics Assistant \hfill September 2022 -- December 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Wireless Lighting Control -- Helped set up decorative lighting for events and used an Arduino with Blynk to control lights wirelessly, creating fun and dynamic lighting effects.
+    \item Tech-Enhanced Décor -- Worked on small projects to control lights and sounds using sensors and microcontrollers, making the event space more interactive.
+    \item Smart Safety Idea -- Suggested and built a basic system using a Raspberry Pi and camera to monitor crowds and detect unusual movement, as a way to improve event safety.
+\end{itemize}
+
+% Positions Held
+\section{Positions Held}
+
+    \subsection{Active Member, ELEESA Academic Board \textit{( Electrical Engineering Students Association (ELEESA))} \hfill September 2024 -- Present}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Collaborated with board members to organize and execute academic initiatives, such as workshops, seminars and study groups, aimed at fostering a comprehensive and enriching learning experience for students.
+    \item Actively contributed to the planning and implementation of academic events, ensuring their alignment with the needs and interests of the student community.
+    \item Played a crucial role in promoting student engagement by facilitating open discussions, gathering feedback, and addressing academic concerns, fostering a supportive and conducive environment within the association.
+\end{itemize}
+
+% Leadership and Volunteering
+\section{Leadership and Volunteering}
+
+\subsection{Academic Excellence Deputy -- NSBE Chapter, KNUST\hfill January 2025 -- Present}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Coordinated academic workshops, peer tutoring sessions, and study groups to support engineering students in core technical courses.
+    \item Led outreach programs to teach and expose students to the basics of electronics and programming using Microbit at Weweso D/A J.H.S, Kentinkrono and STEM career pathways through engaging demos and talks.
+    \item Mentored underclassmen, providing academic and career guidance, and promoting excellence in engineering through structured learning initiatives.
+\end{itemize}
+
+\subsection{ELEESA Mentorship Program}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Selected as a mentor in the \textbf{Electrical/Electronic Engineering Students’ Association (ELEESA)} program to support junior peers in their academic and personal growth. 
+  \item Guided mentees in \textbf{coursework mastery, project execution, and study strategies}, while also advising on career development and professional conduct. 
+  \item Fostered mentees’ confidence, analytical thinking, and problem-solving abilities through structured mentorship and continuous feedback. 
+  \item Enhanced my own \textbf{leadership, communication, and coaching skills} by conducting one-on-one sessions and group mentorship activities. 
+\end{itemize}
+
+
+
+% Skills
+\section{Skills}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item \textbf{Programming \& Scripting:} VHDL, Python, C, JavaScript, HTML, CSS, \LaTeX.
+    \item \textbf{Circuit \& System Simulation Tools:} Xilinx Vivado, Xilinx ise, LTspice, Cadence Virtuoso, PLECS, Multisim, MATLAB, LabVIEW, Falstad, Proteus, EasyEDA, Eagle, Tinkercad, Wokwi.
+    \item \textbf{Embedded Systems \& Electronics Design:} Arduino programming, schematic interpretation, wiring diagram reading, circuit debugging.
+    \item \textbf{Others:} Critical Thinking, Problem Solving, Teamwork, Leadership.
+    \item \textbf{Hobbies:} Music, Football.
+\end{itemize}
+
+% Referees
+\section{Referees}
+
+\textbf{Academic Supervisor} \\
+Dr. Peter Asigri \\
+Department of Electrical/Electronic Engineering, KNUST, Kumasi \\
+\texttt{pasigri@knust.edu.gh} \\
+\texttt{+233 24 590 9083}
+
+
+\end{document}
