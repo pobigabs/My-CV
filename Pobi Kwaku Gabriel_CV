@@ -91,6 +91,16 @@ Linear Electronics, Microprocessors, Classical Control System, Digital Systems, 
 % Projects
 \section{Projects}
 
+\subsection{AI-Optimized Low-Power Analog Neural Network Processor (Proposed Final Year Project)}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Designed a low-power analog \textbf{multiply-and-accumulate (MAC) unit} using CMOS building blocks (Gilbert cell multiplier and summing op-amp) in Cadence Virtuoso/LTspice; characterized linearity, power, and speed. 
+  \item Implemented a behavioral model of a small neural network in \textbf{Verilog-A/AMS} and integrated the transistor-level MAC unit into the system for mixed-mode hybrid simulation. 
+  \item Validated functionality with test inputs, demonstrated correct neural operation, and compared power consumption against a digital baseline to highlight analog efficiency. 
+  \item Documented design flow: transistor-level circuit design, mixed-signal co-simulation, and performance analysis (accuracy, energy savings, scalability). 
+  \item Developed strong skills in \textbf{analog/mixed-signal design, neuromorphic hardware, hybrid simulation methodologies, and low-power VLSI techniques}. 
+\end{itemize}
+
+
 \subsection{Low-Power PWM Controller for On-Chip Power Management (Proposed Final Year Project)}
 \begin{itemize}[leftmargin=*,noitemsep]
   \item Designed a mixed-signal \textbf{low-power PWM controller} for DC–DC conversion with programmable frequency (200\,kHz–1\,MHz), fine duty-cycle resolution, and configurable dead-time. 
