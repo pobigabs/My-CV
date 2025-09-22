@@ -183,6 +183,15 @@ Linear Electronics, Microprocessors, Classical Control System, Digital Systems, 
     \item Results showed a low-to-high propagation delay of approximately 100 ps and a high-to-low delay of 90 ps, with a power dissipation of 200 µW at V$_{dd}$ = 1.8V. The study provided insights into how transistor sizing and supply voltage impact switching speed and power consumption in VLSI design.
 \end{itemize}
 
+\subsection{12-bit Synchronous Up-Counter Design}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \item Conceptualized and implemented a \textbf{12-bit synchronous up-counter} from first principles, applying \textbf{Finite State Machine (FSM)} design methodology to ensure structured and scalable operation.  
+    \item Realized the design using \textbf{D Flip-Flops} and optimized combinational logic for precise synchronous clocking and predictable state transitions.  
+    \item Engineered the output interface by integrating a \textbf{BCD decoder} and display driver, enabling real-time human-readable visualization of the counter sequence.  
+    \item Verified functional correctness and timing integrity through \textbf{Falstad Digital Circuit Simulator}, demonstrating robustness and adaptability for larger counter architectures.  
+    \item Highlighted design trade-offs in \textbf{modularity, timing, and expandability}, showcasing applicability in embedded digital systems and VLSI prototyping.  
+\end{itemize}
+
 \subsection{Interactive Prize Wheel with User-Defined Items\hfill June 2024 -- July 2024}
 \begin{itemize}[leftmargin=*,noitemsep]
     \item Customizable Spin Wheel -- Users can add their own prizes or options and remove them anytime, making the wheel fully personal and interactive.
